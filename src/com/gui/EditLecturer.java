@@ -100,7 +100,7 @@ public class EditLecturer extends javax.swing.JInternalFrame {
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(0, 102, 0));
-        jLabel15.setText("GSM Number");
+        jLabel15.setText("Phone Number");
         jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, -1, -1));
 
         phone.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N

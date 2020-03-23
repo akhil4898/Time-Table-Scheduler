@@ -28,7 +28,7 @@ public class ViewLecturer extends javax.swing.JInternalFrame {
         JTable table;
         TableColumn column = null;
         JScrollPane scrollPane;
-        String meta[]={"Full name", "GSM Number", "Gender"};
+        String meta[]={"Full name", "Phone Number", "Gender"};
         table= MyTable.createTable(sql, meta);
         table.setPreferredScrollableViewportSize(new Dimension(480, 200));
         table.setToolTipText("Select lecturer record and click edit or delete to edit or delete information");

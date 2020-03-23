@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="dist/Time Table Scheduling System.jar"/>
+	<classpathentry kind="lib" path="library/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="library/mysql-connector.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

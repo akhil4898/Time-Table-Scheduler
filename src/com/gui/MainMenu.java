@@ -72,38 +72,38 @@ public class MainMenu extends javax.swing.JFrame {
         generate_time_table = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Time Table Scheduling System using Genetic Algorithm");
+        setTitle("Time Table Scheduler Using Genetic Algorithm");
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 formWindowClosing(evt);
             }
         });
 
-        desktop1.setBackground(new java.awt.Color(153, 204, 0));
+        desktop1.setBackground(new java.awt.Color(240,255,240));
         desktop1.setEnabled(false);
         desktop1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        desktop1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(399, 170, -1, -1));
-        desktop1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(441, 148, -1, -1));
+        desktop1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(9, 10, -1, -1));
+        desktop1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 48, -1, -1));
 
-        jLabel7.setText("jLabel7");
+        // jLabel7.setText("jLabel7");
         desktop1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1851, 0, -1, -1));
 
-        jPanel2.setBackground(new java.awt.Color(51, 85, 116));
+        jPanel2.setBackground(new java.awt.Color(240,128,128));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         uDemo.setFont(new java.awt.Font("Simplified Arabic Fixed", 0, 18)); // NOI18N
-        uDemo.setForeground(new java.awt.Color(0, 0, 102));
+        uDemo.setForeground(new java.awt.Color(255, 255, 255));
         uDemo.setText("Username");
         jPanel2.add(uDemo, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 97, 130, 20));
 
         pDemo.setFont(new java.awt.Font("Simplified Arabic Fixed", 0, 18)); // NOI18N
-        pDemo.setForeground(new java.awt.Color(0, 0, 102));
+        pDemo.setForeground(new java.awt.Color(255, 255, 255));
         pDemo.setText("Password");
         jPanel2.add(pDemo, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 147, 130, 20));
 
-        perfCred.setBackground(new java.awt.Color(44, 168, 44));
+        perfCred.setBackground(new java.awt.Color(70,130,180));
         perfCred.setFont(new java.awt.Font("Simplified Arabic Fixed", 0, 18)); // NOI18N
-        perfCred.setForeground(new java.awt.Color(0, 0, 102));
+        perfCred.setForeground(new java.awt.Color(255, 255, 255 ));
         perfCred.setText("Login");
         perfCred.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         perfCred.setMaximumSize(new java.awt.Dimension(61, 30));
@@ -117,7 +117,7 @@ public class MainMenu extends javax.swing.JFrame {
         });
         jPanel2.add(perfCred, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 190, 100, 33));
 
-        password.setBackground(new java.awt.Color(44, 168, 44));
+        password.setBackground(new java.awt.Color(70,130,180));
         password.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         password.setForeground(new java.awt.Color(255, 255, 255));
         password.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
@@ -141,7 +141,7 @@ public class MainMenu extends javax.swing.JFrame {
         });
         jPanel2.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 140, 220, 30));
 
-        username.setBackground(new java.awt.Color(44, 168, 44));
+        username.setBackground(new java.awt.Color(70,130,180));
         username.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
         username.setForeground(new java.awt.Color(255, 255, 255));
         username.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
@@ -194,10 +194,10 @@ public class MainMenu extends javax.swing.JFrame {
         jPanel2.add(valDot1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 50, 40, -1));
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 80, -1, -1));
 
-        banner.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/AdminLTELogo.png"))); // NOI18N
+        banner.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/Admins.png"))); // NOI18N
         jPanel2.add(banner, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, 140, 130));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/Untitled.jpg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/download.jpg"))); // NOI18N
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 540, 270));
 
         jLabel13.setFont(new java.awt.Font("Simplified Arabic Fixed", 1, 14)); // NOI18N
@@ -315,7 +315,7 @@ public class MainMenu extends javax.swing.JFrame {
 
         profile_course_instructors.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         profile_course_instructors.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/boxupload32.jpg"))); // NOI18N
-        profile_course_instructors.setText("PROFILE COURSE INSTRUCTORS");
+        profile_course_instructors.setText("LECTURER COURSE MAPPING");
         profile_course_instructors.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 profile_course_instructorsActionPerformed(evt);
