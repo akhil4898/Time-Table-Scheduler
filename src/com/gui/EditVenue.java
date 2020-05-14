@@ -11,7 +11,7 @@ public class EditVenue extends javax.swing.JInternalFrame {
         this.class_room_id = class_room_id;
         DBConnect.connect();
         initComponents();
-        
+
         try{
             PreparedStatement st;
             String sql = "select * from class_room where class_room_id = ?";
@@ -21,7 +21,7 @@ public class EditVenue extends javax.swing.JInternalFrame {
 
             DBConnect.rs = st.executeQuery();
             DBConnect.rs.next();
-            
+
             name.setText(DBConnect.rs.getString("class_room_name"));
             capacity.setValue(DBConnect.rs.getInt("space_capacity"));
         }catch (Exception e) {
@@ -69,7 +69,7 @@ public class EditVenue extends javax.swing.JInternalFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 102, 0));
         jLabel5.setText("Venue Name");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, 20));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, -1, 20));
 
         name.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         jPanel1.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 60, 220, -1));
@@ -112,7 +112,7 @@ public class EditVenue extends javax.swing.JInternalFrame {
     private void closeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeActionPerformed
         this.dispose();
         this.hide();
-        
+
         Thread runner = new Thread() {
 
             public void run() {

@@ -126,6 +126,18 @@ CREATE TABLE `instructor` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `subject`
+--
+
+CREATE TABLE `subject` (
+  `sub_id` int(11) NOT NULL,
+  `sub_name` varchar(100) NOT NULL,
+  `sub_faculty` varchar(50) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `meeting_time`
 --
 

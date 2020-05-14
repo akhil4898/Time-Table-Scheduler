@@ -50,8 +50,8 @@ public class AddLecturer extends javax.swing.JInternalFrame {
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 102, 0));
-        jLabel5.setText("Lecturer Name");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, -1, -1));
+        jLabel5.setText("Lecturer Name ");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, -1));
 
         name.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         jPanel1.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, 220, -1));
@@ -78,16 +78,16 @@ public class AddLecturer extends javax.swing.JInternalFrame {
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(0, 102, 0));
-        jLabel15.setText("Phone Number");
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, -1, -1));
+        jLabel15.setText("Phone Number  ");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
 
         phone.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
-        jPanel1.add(phone, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 100, 220, 26));
+        jPanel1.add(phone, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 100, 220, -1));
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(0, 102, 0));
         jLabel17.setText("Gender");
-        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, -1, -1));
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, -1, -1));
 
         gender.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         gender.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select Gender", "Male", "Female" }));
@@ -111,7 +111,7 @@ public class AddLecturer extends javax.swing.JInternalFrame {
         }else{
             try{
                 PreparedStatement st;
-                String sql1="insert into instructor (instructor_name, phone, gender) values (?, ?, ?)";
+                String sql1="insert into instructor (instructor_name, phone, gender) values (?, ?, ?);";
                 st = DBConnect.con.prepareStatement(sql1);
                 st.setString(1, name.getText().trim());
                 st.setString(2, phone.getText().trim());

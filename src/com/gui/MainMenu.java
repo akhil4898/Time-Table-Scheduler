@@ -21,7 +21,7 @@ public class MainMenu extends javax.swing.JFrame {
         valDot2.setVisible(false);
         valDot1.setVisible(false);
     }
-   
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -51,6 +51,10 @@ public class MainMenu extends javax.swing.JFrame {
         logout = new javax.swing.JMenuItem();
         exit = new javax.swing.JMenuItem();
         donor = new javax.swing.JMenu();
+        sub = new javax.swing.JMenu();
+        add_subject = new javax.swing.JMenuItem();
+        edit_subject = new javax.swing.JMenuItem();
+        profile_subject_instructors = new javax.swing.JMenuItem();
         add_lecturer = new javax.swing.JMenuItem();
         edit_lecturer = new javax.swing.JMenuItem();
         patient = new javax.swing.JMenu();
@@ -65,6 +69,7 @@ public class MainMenu extends javax.swing.JFrame {
         report1 = new javax.swing.JMenu();
         view_all_lecturers = new javax.swing.JMenuItem();
         view_all_courses = new javax.swing.JMenuItem();
+        view_all_subjects = new javax.swing.JMenuItem();
         view_all_classes = new javax.swing.JMenuItem();
         view_all_venues = new javax.swing.JMenuItem();
         view_all_meeting_time = new javax.swing.JMenuItem();
@@ -325,6 +330,52 @@ public class MainMenu extends javax.swing.JFrame {
 
         jMenuBar1.add(patient);
 
+        sub.setForeground(new java.awt.Color(255, 255, 255));
+        sub.setText("SUBJECT");
+        sub.setFont(new java.awt.Font("Monospaced", 0, 24)); // NOI18N
+        sub.setIconTextGap(10);
+        sub.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                subMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                subMouseExited(evt);
+            }
+        });
+
+        add_subject.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        add_subject.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/Add16.gif"))); // NOI18N
+        add_subject.setText("ADD SUBJECT");
+        add_subject.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                add_subjectActionPerformed(evt);
+            }
+        });
+        sub.add(add_subject);
+
+        edit_subject.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        edit_subject.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/Edit16.gif"))); // NOI18N
+        edit_subject.setText("EDIT SUBJECT");
+        edit_subject.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                edit_subjectActionPerformed(evt);
+            }
+        });
+        sub.add(edit_subject);
+
+        profile_subject_instructors.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        profile_subject_instructors.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/boxupload32.jpg"))); // NOI18N
+        profile_subject_instructors.setText("LECTURER SUBJECT MAPPING");
+        profile_subject_instructors.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                profile_subject_instructorsActionPerformed(evt);
+            }
+        });
+        sub.add(profile_subject_instructors);
+
+        jMenuBar1.add(sub);
+
+
         donations.setForeground(new java.awt.Color(255, 255, 255));
         donations.setText("CLASS");
         donations.setFont(new java.awt.Font("Monospaced", 0, 24)); // NOI18N
@@ -418,6 +469,17 @@ public class MainMenu extends javax.swing.JFrame {
         });
         report1.add(view_all_courses);
 
+        view_all_subjects.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        view_all_subjects.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/List16.gif"))); // NOI18N
+        view_all_subjects.setText("VIEW ALL SUBJECTS");
+        view_all_subjects.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                view_all_subjectsActionPerformed(evt);
+            }
+        });
+        report1.add(view_all_subjects);
+
+
         view_all_classes.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         view_all_classes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/image/ico/List16.gif"))); // NOI18N
         view_all_classes.setText("VIEW ALL CLASSES");
@@ -480,12 +542,12 @@ public class MainMenu extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(desktop1, javax.swing.GroupLayout.DEFAULT_SIZE, 1367, Short.MAX_VALUE)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(desktop1, javax.swing.GroupLayout.DEFAULT_SIZE, 1367, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(desktop1, javax.swing.GroupLayout.DEFAULT_SIZE, 714, Short.MAX_VALUE)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(desktop1, javax.swing.GroupLayout.DEFAULT_SIZE, 714, Short.MAX_VALUE)
         );
 
         setSize(new java.awt.Dimension(1383, 781));
@@ -542,12 +604,12 @@ public class MainMenu extends javax.swing.JFrame {
                     }
                     String pass="";
                     String user="";
-                    
+
                     PreparedStatement st;
                     String sql= "select * from app_user where username = ?";
                     st = DBConnect.con.prepareStatement(sql);
                     st.setString(1, username.getText());
-                    
+
                     DBConnect.rs= st.executeQuery();
                     if(DBConnect.rs.next()){
                         pass = DBConnect.rs.getString("password");
@@ -692,6 +754,15 @@ public class MainMenu extends javax.swing.JFrame {
         patient.setForeground(Color.white);
     }//GEN-LAST:event_patientMouseExited
 
+    private void subMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_patientMouseEntered
+        sub.setForeground(Color.red);
+    }//GEN-LAST:event_patientMouseEntered
+
+    private void subMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_patientMouseExited
+        sub.setForeground(Color.white);
+    }//GEN-LAST:event_patientMouseExited
+
+
     private void donationsMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_donationsMouseEntered
         donations.setForeground(Color.red);
     }//GEN-LAST:event_donationsMouseEntered
@@ -731,7 +802,7 @@ public class MainMenu extends javax.swing.JFrame {
                 }
             }
         };
-        runner.start();   
+        runner.start();
     }//GEN-LAST:event_add_lecturerActionPerformed
 
     private void edit_lecturerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edit_lecturerActionPerformed
@@ -775,7 +846,7 @@ public class MainMenu extends javax.swing.JFrame {
                 }
             }
         };
-        runner.start();  
+        runner.start();
     }//GEN-LAST:event_add_courseActionPerformed
 
     private void edit_courseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edit_courseActionPerformed
@@ -813,6 +884,61 @@ public class MainMenu extends javax.swing.JFrame {
         };
         runner.start();
     }//GEN-LAST:event_profile_courses_for_classActionPerformed
+
+    private void add_subjectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_subjectActionPerformed
+        Thread runner = new Thread() {
+
+            public void run() {
+                AddSubject add_subject = new AddSubject();
+                desktop1.removeAll();
+                desktop1.add(add_subject, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0));
+                desktop1.setVisible(false);
+                desktop1.setVisible(true);
+                try {
+                    add_subject.setSelected(true);
+                } catch (java.beans.PropertyVetoException e) {
+                }
+            }
+        };
+        runner.start();
+    }//GEN-LAST:event_add_courseActionPerformed
+
+    private void edit_subjectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edit_subjectActionPerformed
+        Thread runner = new Thread() {
+
+            public void run() {
+                ViewSubject view_subject = new ViewSubject();
+                desktop1.removeAll();
+                desktop1.add(view_subject, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0));
+                desktop1.setVisible(false);
+                desktop1.setVisible(true);
+                try {
+                    view_subject.setSelected(true);
+                } catch (java.beans.PropertyVetoException e) {
+                }
+            }
+        };
+        runner.start();
+    }//GEN-LAST:event_edit_courseActionPerformed
+
+    private void  profile_subject_instructorsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_profile_courses_for_classActionPerformed
+        Thread runner = new Thread() {
+
+            public void run() {
+                ProfileSubjectInstructor profile_subject_instructors = new ProfileSubjectInstructor();
+                desktop1.removeAll();
+                desktop1.add(profile_subject_instructors, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0));
+                desktop1.setVisible(false);
+                desktop1.setVisible(true);
+                try {
+                    profile_subject_instructors.setSelected(true);
+                } catch (java.beans.PropertyVetoException e) {
+                }
+            }
+        };
+        runner.start();
+    }//GEN-LAST:event_profile_courses_for_classActionPerformed
+
 
     private void add_venueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_add_venueActionPerformed
         Thread runner = new Thread() {
@@ -853,18 +979,18 @@ public class MainMenu extends javax.swing.JFrame {
     private void view_all_lecturersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_all_lecturersActionPerformed
         Thread runner = new Thread() {
 
-        public void run() {
-            ViewLecturer view_lecturers = new ViewLecturer();
-            desktop1.removeAll();
-            desktop1.add(view_lecturers, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0));
-            desktop1.setVisible(false);
-            desktop1.setVisible(true);
-        try {
-            view_lecturers.setSelected(true);
-        } catch (java.beans.PropertyVetoException e) {
-        }
-        }
-            };
+            public void run() {
+                ViewLecturer view_lecturers = new ViewLecturer();
+                desktop1.removeAll();
+                desktop1.add(view_lecturers, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0));
+                desktop1.setVisible(false);
+                desktop1.setVisible(true);
+                try {
+                    view_lecturers.setSelected(true);
+                } catch (java.beans.PropertyVetoException e) {
+                }
+            }
+        };
         runner.start();
     }//GEN-LAST:event_view_all_lecturersActionPerformed
 
@@ -879,6 +1005,24 @@ public class MainMenu extends javax.swing.JFrame {
                 desktop1.setVisible(true);
                 try {
                     view_course.setSelected(true);
+                } catch (java.beans.PropertyVetoException e) {
+                }
+            }
+        };
+        runner.start();
+    }//GEN-LAST:event_view_all_coursesActionPerformed
+
+    private void view_all_subjectsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_view_all_coursesActionPerformed
+        Thread runner = new Thread() {
+
+            public void run() {
+                ViewSubject view_subject = new ViewSubject();
+                desktop1.removeAll();
+                desktop1.add(view_subject, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0));
+                desktop1.setVisible(false);
+                desktop1.setVisible(true);
+                try {
+                    view_subject.setSelected(true);
                 } catch (java.beans.PropertyVetoException e) {
                 }
             }
@@ -952,7 +1096,7 @@ public class MainMenu extends javax.swing.JFrame {
                 try {
                     generate_time_table.setSelected(true);
                 } catch (java.beans.PropertyVetoException e) {
-                    
+
                 }
             }
         };
@@ -981,7 +1125,7 @@ public class MainMenu extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         /*
         try {
@@ -1012,6 +1156,7 @@ public class MainMenu extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem add_course;
+    private javax.swing.JMenuItem add_subject;
     private javax.swing.JMenuItem add_lecturer;
     private javax.swing.JMenuItem add_venue;
     private javax.swing.JLabel banner;
@@ -1019,7 +1164,9 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JMenu dispensations;
     private javax.swing.JMenu donations;
     private javax.swing.JMenu donor;
+    private javax.swing.JMenu sub;
     private javax.swing.JMenuItem edit_course;
+    private javax.swing.JMenuItem edit_subject;
     private javax.swing.JMenuItem edit_lecturer;
     private javax.swing.JMenuItem edit_venue;
     private javax.swing.JMenuItem exit;
@@ -1042,6 +1189,7 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JMenu patient;
     public static javax.swing.JButton perfCred;
     private javax.swing.JMenuItem profile_course_instructors;
+    private javax.swing.JMenuItem profile_subject_instructors;
     private javax.swing.JMenuItem profile_courses_for_class;
     private javax.swing.JMenu report;
     private javax.swing.JMenu report1;
@@ -1052,6 +1200,7 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JLabel valLogin;
     private javax.swing.JMenuItem view_all_classes;
     private javax.swing.JMenuItem view_all_courses;
+    private javax.swing.JMenuItem view_all_subjects;
     private javax.swing.JMenuItem view_all_lecturers;
     private javax.swing.JMenuItem view_all_meeting_time;
     private javax.swing.JMenuItem view_all_venues;

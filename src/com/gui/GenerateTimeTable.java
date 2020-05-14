@@ -145,19 +145,17 @@ public class GenerateTimeTable extends javax.swing.JInternalFrame {
             report.append("\n------- Generated Time Table -------");
             
             report.append("\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-            report.append("\nLecture #    |    Class    |    Course (max # number of students)    |    Venue (Capacity)    |    Instructor    |    Meeting Time\n");
+            report.append("\nLecture #   |    Course (max # no. of students)    |    Venue (Capacity)    |         Instructors Name         |    Meeting Time\n");
             report.append("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
             classes.forEach(x -> {
-                int majorIndex = data.getDepts().indexOf(x.getDept());
                 int coursesIndex = data.getCourses().indexOf(x.getCourse());
                 int roomsIndex = data.getRooms().indexOf(x.getRoom());
                 int instructorsIndex = data.getInstructors().indexOf(x.getInstructor());
                 int meetingTimeIndex = data.getMeetingTimes().indexOf(x.getMeetingTime());
-                report.append(String.format("\n  %1$02d  ", classNumb) + "  |  ");
-                report.append(String.format("%1$4s", data.getDepts().get(majorIndex).getName()) + "  |  ");
-                report.append(String.format("%1$21s", data.getCourses().get(coursesIndex).getName() + " ("+x.getCourse().getMaxNumberOfStudents()) + ")    | ");
-                report.append(String.format("%1$10s", data.getRooms().get(roomsIndex).getNumber() + "(" + x.getRoom().getSeatingCapacity()) + ")      |  " );
-                report.append(String.format("%1$15s", data.getInstructors().get(instructorsIndex).getName()) + "  | ");
+                report.append(String.format("\n  %1$02d  ", classNumb) + "          |  ");
+                report.append(String.format("%1$21s", data.getCourses().get(coursesIndex).getName() + " ("+x.getCourse().getMaxNumberOfStudents()) + ")                     | ");
+                report.append(String.format("%1$10s", data.getRooms().get(roomsIndex).getNumber() + "(" + x.getRoom().getSeatingCapacity()) + ")                 |  " );
+                report.append(String.format("%1$15s", data.getInstructors().get(instructorsIndex).getName()) + "                    | ");
                 report.append(data.getMeetingTimes().get(meetingTimeIndex).getTime() + " (" + data.getMeetingTimes().get(meetingTimeIndex).getId() + ")");
                 classNumb++;
             });
@@ -199,12 +197,6 @@ public class GenerateTimeTable extends javax.swing.JInternalFrame {
         report.append("..................................................................................");
         report.append(".................................................................................................\n");
         
-        report.append("\n------ Available Levels ------\n");
-        data.getDepts().forEach(x -> report.append("      Class Name:  " + x.getName() + "\n      Courses Offered:  " + x.getCourses()+"\n\n"));
-        
-        report.append("..................................................................................");
-        report.append("..................................................................................");
-        report.append(".................................................................................................\n");
     }
 
 

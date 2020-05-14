@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5f1a1e3-42fb-45cb-a9f8-2e78662ff70d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/gui/AddSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddCourse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddCourse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddCourse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddCourse$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddLecturer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddLecturer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddLecturer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddLecturer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddLecturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddLecturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddVenue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddVenue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddVenue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddVenue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/AddVenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/AddVenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditCourse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditCourse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditCourse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditCourse$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditCourse$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditCourse$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditLecturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditVenue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditVenue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditVenue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditVenue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditVenue$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditVenue$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/EditVenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/EditVenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/GenerateTimeTable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/GenerateTimeTable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/GenerateTimeTable$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/GenerateTimeTable$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/GenerateTimeTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/GenerateTimeTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileClassCourses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ProfileCourseInstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewLecturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewMeetingTime$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewMeetingTime$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewMeetingTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewMeetingTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/gui/ViewVenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/time_table_scheduling.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/time_table_scheduling.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/time_table_scheduling.zip" beforeDir="false" afterPath="$PROJECT_DIR$/db/time_table_scheduling.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/AbstractContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/AbstractVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/Association.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/ContainerFullException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/DBConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/DBConnect1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/MethodNotImplemented.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/MyContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/MySearchableContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/MyTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/PrintingVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/ResultSetTableModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/SearchableContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.data_structure/Visitor1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.genetic_algorithm_resource/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.genetic_algorithm_resource/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.genetic_algorithm_resource/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.genetic_algorithm_resource/Instructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.genetic_algorithm_resource/MeetingTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.genetic_algorithm_resource/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.timetable/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.timetable/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.timetable/GeneticAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.timetable/Population.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/.timetable/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/AddCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/AddCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/AddLecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/AddLecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/AddVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/AddVenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/EditCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/EditCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/EditLecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/EditLecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/EditVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/EditVenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/GenerateTimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/GenerateTimeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/MainMenu.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZiiVnM2lu2FRVtXJF2RZBzMHpM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql.8&#10;java.sql.Driver&#10;mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RunManager" selected="Application.MainMenu">
+    <configuration name="MainMenu (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gui.MainMenu" />
+      <module name="Major-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMenu" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/jdk-13.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="time_table_scheduling.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/db/time_table_scheduling.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2">
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="MainMenu" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="Time Table Scheduling System.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/dist/Time Table Scheduling System.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainMenu" />
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="JAR Application.Time Table Scheduling System.jar" />
+      <item itemvalue="Application.MainMenu (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainMenu (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5f1a1e3-42fb-45cb-a9f8-2e78662ff70d" name="Default Changelist" comment="" />
+      <created>1585328344076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585328344076</updated>
+      <workItem from="1585328354537" duration="595000" />
+      <workItem from="1585930613444" duration="319000" />
+      <workItem from="1585931205924" duration="1221000" />
+      <workItem from="1586851040231" duration="7341000" />
+      <workItem from="1587384891982" duration="8669000" />
+      <workItem from="1587665288546" duration="6915000" />
+      <workItem from="1587696090772" duration="1578000" />
+      <workItem from="1587697833059" duration="974000" />
+      <workItem from="1588084059473" duration="11973000" />
+      <workItem from="1588102597744" duration="942000" />
+      <workItem from="1588182921537" duration="426000" />
+      <workItem from="1588442754108" duration="524000" />
+      <workItem from="1588690152966" duration="16313000" />
+      <workItem from="1588834292376" duration="9231000" />
+      <workItem from="1588855592372" duration="1142000" />
+      <workItem from="1589218332115" duration="754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="78" width="732" height="637" key="#Inspections" timestamp="1588853400226">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="312" y="78" width="732" height="637" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1588853400226" />
+    <state x="315" y="27" width="687" height="741" key="#MainMenu" timestamp="1589303775894">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="315" y="27" width="687" height="741" key="#MainMenu/0.27.1366.741@0.27.1366.741" timestamp="1589303775894" />
+    <state x="315" y="32" width="740" height="736" key="#MainMenu/0.32.1366.736@0.32.1366.736" timestamp="1589219083600" />
+    <state x="0" y="249" width="1356" height="294" key="#SQL_Dialects" timestamp="1588854357529">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="249" width="1356" height="294" key="#SQL_Dialects/0.27.1366.741@0.27.1366.741" timestamp="1588854357529" />
+    <state x="59" y="264" width="1237" height="265" key="#SQL_Resolution_Scopes" timestamp="1588855755727">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="59" y="264" width="1237" height="265" key="#SQL_Resolution_Scopes/0.27.1366.741@0.27.1366.741" timestamp="1588855755727" />
+    <state x="278" y="58" width="894" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589302283323">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="58" width="894" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1589302283323" />
+    <state x="278" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1366.736@0.32.1366.736" timestamp="1589219034818" />
+    <state x="457" y="188" width="525" height="417" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589302255425">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="457" y="188" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1589302255425" />
+    <state x="457" y="192" width="525" height="417" key="#com.intellij.ide.util.TreeClassChooserDialog/0.32.1366.736@0.32.1366.736" timestamp="1589218951869" />
+    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588102849655">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1588102849655" />
+    <state x="345" y="44" width="666" height="704" key="#time_table_scheduling.sql" timestamp="1588855139057">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="345" y="44" width="666" height="704" key="#time_table_scheduling.sql/0.27.1366.741@0.27.1366.741" timestamp="1588855139057" />
+    <state x="466" y="154" width="434" height="481" key="FileChooserDialogImpl" timestamp="1589308995424">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1589308995424" />
+    <state x="466" y="158" width="434" height="481" key="FileChooserDialogImpl/0.32.1366.736@0.32.1366.736" timestamp="1589208911973" />
+    <state width="1343" height="153" key="GridCell.Tab.0.bottom" timestamp="1589303789161">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="153" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1589303789161" />
+    <state width="660" height="6" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1589219085562" />
+    <state width="1343" height="153" key="GridCell.Tab.0.center" timestamp="1589303789161">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="153" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1589303789161" />
+    <state width="660" height="6" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1589219085560" />
+    <state width="1343" height="153" key="GridCell.Tab.0.left" timestamp="1589303789160">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="153" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1589303789160" />
+    <state width="660" height="6" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1589219085558" />
+    <state width="1343" height="153" key="GridCell.Tab.0.right" timestamp="1589303789161">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="153" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1589303789161" />
+    <state width="660" height="6" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1589219085561" />
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom" timestamp="1587405261567">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1587405261567" />
+    <state width="1320" height="219" key="GridCell.Tab.1.center" timestamp="1587405261566">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1587405261566" />
+    <state width="1320" height="219" key="GridCell.Tab.1.left" timestamp="1587405261566">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1587405261566" />
+    <state width="1320" height="219" key="GridCell.Tab.1.right" timestamp="1587405261567">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1587405261567" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1588853930727">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/0.27.1366.741@0.27.1366.741" timestamp="1588853930727" />
+    <state x="333" y="99" width="689" height="595" key="RollbackChangesDialog" timestamp="1588101958691">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="333" y="99" width="689" height="595" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1588101958691" />
+    <state x="172" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1589309010166">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1589309010166" />
+    <state x="172" y="32" width="1024" height="736" key="SettingsEditor/0.32.1366.736@0.32.1366.736" timestamp="1589218750669" />
+    <state width="200" height="482" key="SqlResolveConfigurable" timestamp="1588855753650">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="200" height="482" key="SqlResolveConfigurable/0.27.1366.741@0.27.1366.741" timestamp="1588855753650" />
+    <state x="580" y="274" width="196" height="244" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1588854198122">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="580" y="274" width="196" height="244" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.27.1366.741@0.27.1366.741" timestamp="1588854198122" />
+    <state x="436" y="214" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1588852910749">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="436" y="214" width="484" height="361" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.27.1366.741@0.27.1366.741" timestamp="1588852910749" />
+    <state x="414" y="137" width="527" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1588855333387">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="414" y="137" width="527" height="518" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1366.741@0.27.1366.741" timestamp="1588855333387" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1585930619386">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585930619386" />
+    <state x="559" y="175" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1588855116307">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="559" y="175" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.27.1366.741@0.27.1366.741" timestamp="1588855116307" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1586857937236">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.27.1366.741@0.27.1366.741" timestamp="1586857937236" />
+    <state x="0" y="100" width="1356" height="592" key="new project wizard" timestamp="1588183338411">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="100" width="1356" height="592" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1588183338411" />
+    <state x="347" y="175" key="run.anything.popup" timestamp="1588701479832">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1588701479832" />
+    <state x="472" y="262" width="400" height="278" key="scopes" timestamp="1589156283048">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="472" y="262" width="400" height="278" key="scopes/0.32.1366.736@0.32.1366.736" timestamp="1589156283048" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/time_table_scheduling$Time_Table_Scheduling_System_jar.ic" NAME="Time Table Scheduling System.jar Coverage Results" MODIFIED="1587387172030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

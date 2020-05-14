@@ -1,13 +1,26 @@
 package com.gui;
 
 import com.data_structure.DBConnect;
+
+import static java.sql.DriverManager.registerDriver;
+
+import java.sql.Driver;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
 import javax.swing.JOptionPane;
 
 public class AddVenue extends javax.swing.JInternalFrame {
 
     public AddVenue() {
-        DBConnect.connect();
+        try {
+            registerDriver((Driver) new com.mysql.jdbc.Driver());
+            DBConnect.con=DriverManager.getConnection("jdbc:mysql://localhost:3306/time_table_scheduling", "root", "");
+            DBConnect.st=DBConnect.con.createStatement();
+        }catch (SQLException e){
+            JOptionPane.showMessageDialog(null, "Cannot connect to the database","Issue!", JOptionPane.OK_OPTION);
+        }
         initComponents();
     }
 
@@ -50,7 +63,7 @@ public class AddVenue extends javax.swing.JInternalFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 102, 0));
         jLabel5.setText("Venue Name");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, 20));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, -1, 20));
 
         name.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         jPanel1.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 60, 220, -1));

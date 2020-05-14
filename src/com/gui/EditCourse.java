@@ -21,7 +21,7 @@ public class EditCourse extends javax.swing.JInternalFrame {
 
             DBConnect.rs = st.executeQuery();
             DBConnect.rs.next();
-            
+
             course_title.setText(DBConnect.rs.getString("course_name"));
             no_of_student.setValue(DBConnect.rs.getInt("maximum_number_of_student"));
         }catch (Exception e) {
@@ -69,7 +69,7 @@ public class EditCourse extends javax.swing.JInternalFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 102, 0));
         jLabel5.setText("Course Title");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, -1, 20));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, 20));
 
         course_title.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         jPanel1.add(course_title, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 220, -1));
@@ -97,7 +97,7 @@ public class EditCourse extends javax.swing.JInternalFrame {
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(0, 102, 0));
         jLabel15.setText("Maximum Number of Student");
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, 30));
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 30));
 
         no_of_student.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 204)));
         no_of_student.setMaximum(300);
@@ -112,7 +112,7 @@ public class EditCourse extends javax.swing.JInternalFrame {
     private void closeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeActionPerformed
         this.dispose();
         this.hide();
-        
+
         Thread runner = new Thread() {
 
             public void run() {
